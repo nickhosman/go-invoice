@@ -43,7 +43,6 @@ func (app *application) invoiceCreate(w http.ResponseWriter, r *http.Request) {
     w.Write([]byte("Display a form for creating a new snippet..."))
 }
 
-//route for creating post
 func (app *application) invoiceCreatePost(w http.ResponseWriter, r *http.Request) {
     w.WriteHeader(http.StatusCreated)
     w.Write([]byte("Save a new snippet..."))

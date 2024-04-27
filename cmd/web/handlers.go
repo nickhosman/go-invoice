@@ -38,6 +38,7 @@ func (app *application) invoiceView(w http.ResponseWriter, r *http.Request) {
     fmt.Fprintf(w, "Display a specific snippet with ID %d...", id)
 }
 
+//create invoice get route
 func (app *application) invoiceCreate(w http.ResponseWriter, r *http.Request) {
     w.Write([]byte("Display a form for creating a new snippet..."))
 }

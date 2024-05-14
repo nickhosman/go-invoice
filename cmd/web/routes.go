@@ -15,3 +15,6 @@ func (app *application) routes() *http.ServeMux {
 
 	return mux
 }
+ func calcValues(val1, val2 int) int {
+	return val1 + val2
+ }
